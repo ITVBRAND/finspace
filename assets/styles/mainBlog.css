@@ -1,0 +1,252 @@
+.blog__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.section__article-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.blog__category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.blog__category-item {
+    padding: 10px 20px 10px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--clr-purple);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+    box-sizing: border-box;
+    border-radius: 14px;
+    border: 1px solid var(--clr-purple);
+    transition: .3s ease-in-out;
+}
+
+.blog__category-item.active {
+    color: var(--clr-white);
+    background-color: var(--clr-purple);
+}
+
+.blog__category-item:hover {
+    color: var(--clr-white);
+    background-color: var(--clr-purple);
+}
+
+.blog-swiper {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.blog-swiper .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.blog-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blog-slide__wrapper {
+    position: relative;
+
+    width: 412px;
+    height: 412px;
+
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.blog-slide__tabs {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.blog-slide__tab {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+
+    color: var(--clr-white);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+    border-radius: 14px;
+    background: rgba(155, 102, 234, 1);
+}
+
+.blog-slide__images {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.blog-slide__article {
+    padding: 20px 0px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.blog-slide__date {
+    margin: 0;
+    color: var(--clr-gray);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.blog-slide__title {
+    margin: 0;
+    color: var(--clr-black);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.blog-swiper__prev,
+.blog-swiper__next {
+    position: absolute;
+    top: 50%;
+
+    padding: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--clr-purple);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 10;
+}
+
+.blog-swiper__prev {
+    left: -5%;
+}
+
+.blog-swiper__next {
+    right: -5%;
+}
+
+.blog-swiper__prev::after,
+.blog-swiper__next::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: no-repeat url(../icons/chevron_white.svg) center / cover;
+}
+
+.blog-swiper__prev::after {
+    transform: rotate(180deg);
+}
+
+.blog-swiper__prev:hover,
+.blog-swiper__next:hover {
+    background: #5d1ac1;
+}
+
+.blog-swiper__prev.swiper-button-disabled,
+.blog-swiper__next.swiper-button-disabled {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .blog-swiper {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .blog-swiper .swiper-wrapper {
+        margin: 0;
+    }
+
+    .blog-slide {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0;
+        flex-shrink: 0;
+        box-sizing: border-box;
+    }
+
+    .blog-slide__wrapper {
+        position: relative;
+        width: 100%;
+        height: 280px;
+    }
+    
+    .blog-swiper__prev,
+    .blog-swiper__next {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    .blog-slide__date {
+        font-size: 14px;
+    }
+
+    .blog-slide__title {
+        font-size: 16px;
+    }
+
+    .blog-slide__tabs {
+        top: 10px;
+        left: 10px;
+    }
+
+    .blog-slide__tab {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+
+    .blog-swiper__prev, .blog-swiper__next {
+        top: 60%;
+    }
+
+}

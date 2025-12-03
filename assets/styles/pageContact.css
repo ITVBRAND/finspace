@@ -1,0 +1,143 @@
+.page-contact {
+    margin: 180px 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact__header-title {
+    margin: 0;
+}
+
+.contact__wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact__info-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact__info-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact__info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact__info-title {
+    margin: 0;
+    color: var(--clr-gray);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.contact__info-link {
+    margin: 0;
+    color: var(--clr-black);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.contact__social-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contact__social-item {
+    padding: 8px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .3s ease-in-out;
+    border-radius: 8px;
+    background-color: var(--clr-gray-100);
+}
+
+.contact__social-item:hover {
+    background-color: var(--clr-purple);
+}
+
+.contact__social-img {
+    height: 32px;
+    object-fit: cover;
+    display: block;
+}
+
+.contact__info-article {
+    color: var(--clr-gray);
+}
+
+.contact__maps {
+    position: sticky;
+    top: 140px;
+
+    width: 640px;
+    height: 550px;
+
+    outline: 1px solid var(--clr-gray);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .contact__wrap {
+        flex-direction: column-reverse;
+    }
+
+    .contact__maps {
+        position: relative;
+        top: 0;
+
+        width: 100%;
+        height: 320px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .page-contact {
+        margin: 120px 0 40px;
+    }
+
+    .contact__info-row {
+        flex-direction: column;
+    }
+
+    .contact__info-btn {
+        width: 100%;
+    }
+
+}

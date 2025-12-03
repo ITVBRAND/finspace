@@ -2,24 +2,31 @@ var swiper = new Swiper(".services-swiper", {
     slidesPerView: 3,
     spaceBetween: 20,
     loop: true,
+    watchOverflow: true,
     navigation: {
         nextEl: ".services-swiper__next",
         prevEl: ".services-swiper__prev",
     },
     breakpoints: {
         320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 10,
+            centeredSlides: true,
+            loop: false, // Отключаем loop на мобильных для правильного отображения
         },
 
         768: {
             slidesPerView: 2,
             spaceBetween: 20,
+            centeredSlides: false,
+            loop: true,
         },
 
         1024: {
             slidesPerView: 3,
             spaceBetween: 20,
+            centeredSlides: false,
+            loop: true,
         },
     },
 });

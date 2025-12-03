@@ -206,6 +206,7 @@
 }
 
 .tags__item {
+    margin: 0;
     display: inline-flex;
     padding: 16px 24px;
     white-space: nowrap;

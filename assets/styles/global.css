@@ -3,9 +3,14 @@
     --clr-white: #fff;
     --clr-white-100: #e9e9e9;
     --clr-gray: #868686;
+    --clr-gray-100:#f6f6f6;
     --clr-pink-100: #F1EBFD;
     --clr-purple: #9b66ea;
     --clr-purple-100: #C098F2;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

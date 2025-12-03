@@ -16,7 +16,6 @@
 						</p>
 					</div>
 					<div class="hero__article-btns">
-						<button class="btn hero__btn btn-link">Рассчитать стоимость</button>
 						<button class="btn hero__btn btn-default js-modal-contact">Оставить заявку</button>
 					</div>
 				</article>
@@ -164,56 +163,56 @@
 			</article>
 			<div class="tags__wrapper">
 				<div class="tags__list">
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
 				</div>
 				<div class="tags__list">
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
-					<a href="#" class="tags__item">Общественное питание и кулинария</a>
-					<a href="#" class="tags__item">Услуги IT</a>
-					<a href="#" class="tags__item">Бьюти индустрия</a>
-					<a href="#" class="tags__item">Производство</a>
-					<a href="#" class="tags__item">ВЭД и валютные операции</a>
-					<a href="#" class="tags__item">Стоматологические услуги</a>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
+					<p class="tags__item">Общественное питание и кулинария</p>
+					<p class="tags__item">Услуги IT</p>
+					<p class="tags__item">Бьюти индустрия</p>
+					<p class="tags__item">Производство</p>
+					<p class="tags__item">ВЭД и валютные операции</p>
+					<p class="tags__item">Стоматологические услуги</p>
 				</div>
 			</div>
 		</section>
@@ -237,27 +236,180 @@
 		</section>
 		<section class="section review">
 			<div class="container">
-				<div class="review__wrapper">
+				<div class="review__block">
 					<article class="section__article">
 						<h2 class="section__title">
 							Отзывы довольных клиентов
 						</h2>
 					</article>
+					<div class="review__wrapper">
+						<div class="swiper review-swiper">
+							<div class="swiper-wrapper">
+								<?php 
+								// Проверяем наличие повторителя отзывов
+								if ( function_exists('have_rows') && have_rows('repeater_reviews', 'option') ) :
+									while ( have_rows('repeater_reviews', 'option') ) : the_row();
+										$review_photo = get_sub_field('review_photo');
+										$review_ranking = get_sub_field('review_ranking');
+										$review_name = get_sub_field('review_name');
+										$review_comment = get_sub_field('review_comment');
+										
+										// Получаем URL изображения
+										$photo_url = '';
+										$photo_alt = '';
+										
+										if ( $review_photo ) {
+											if ( is_array($review_photo) && !empty($review_photo['url']) ) {
+												$photo_url = $review_photo['url'];
+												$photo_alt = !empty($review_photo['alt']) ? $review_photo['alt'] : $review_name;
+											} elseif ( is_numeric($review_photo) ) {
+												$photo_url = wp_get_attachment_image_url( intval($review_photo), 'full' );
+												$photo_alt = get_post_meta( intval($review_photo), '_wp_attachment_image_alt', true );
+												if ( !$photo_alt ) {
+													$photo_alt = $review_name;
+												}
+											} elseif ( is_string($review_photo) ) {
+												$photo_url = $review_photo;
+												$photo_alt = $review_name;
+											}
+										}
+										
+										// Выводим слайд только если есть хотя бы имя или комментарий
+										if ( $review_name || $review_comment ) :
+											?>
+											<div class="swiper-slide review-slide">
+												<div class="review-slide__header">
+													<div class="tab">
+														<p>
+															Отзыв
+														</p>
+													</div>
+												</div>
+												<?php if ( $photo_url ) : ?>
+													<img src="<?php echo esc_url( $photo_url ); ?>" alt="<?php echo esc_attr( $photo_alt ); ?>" class="review-slide__img">
+												<?php endif; ?>
+												<div class="review-slide__body">
+													<article class="review-slide__article">
+														<?php if ( $review_ranking ) : ?>
+															<p class="review-slide__ranking">
+																<?php echo esc_html( $review_ranking ); ?>
+															</p>
+														<?php endif; ?>
+														<?php if ( $review_name ) : ?>
+															<h3 class="review-slide__name">
+																<?php echo esc_html( $review_name ); ?>
+															</h3>
+														<?php endif; ?>
+														<?php if ( $review_comment ) : ?>
+															<p class="review-slide__comment">
+																<?php echo wp_kses_post( $review_comment ); ?><a href="https://yandex.ru/maps/org/finspeys/224516834059/reviews/" target="blank_">, читать далее...</a>
+															</p>
+														<?php endif; ?>
+													</article>
+												</div>
+											</div>
+											<?php
+										endif;
+									endwhile;
+								endif;
+								?>
+							</div>
+						</div>
+						<button class="review-swiper__prev"></button>
+						<button class="review-swiper__next"></button>
+					</div>
 				</div>
-				<!--swiper-с-отзывами-->
 			</div>
 		</section>
 		<section class="section blog">
 			<div class="container">
 				<div class="blog__wrapper">
-					<article class="section__article">
+					<article class="section__article section__article-blog">
 						<h2 class="section__title">
 							О бухгалтерий простым языком
 						</h2>
+						<div class="blog__category">
+							<button class="blog__category-item active" data-category="all">
+								Все
+							</button>
+							<?php
+							$blog_categories = get_terms( array(
+								'taxonomy'   => 'blog_category',
+								'hide_empty' => true,
+							) );
+							if ( $blog_categories && ! is_wp_error( $blog_categories ) ) :
+								foreach ( $blog_categories as $cat ) :
+							?>
+								<button class="blog__category-item" data-category="<?php echo esc_attr( $cat->term_id ); ?>">
+									<?php echo esc_html( $cat->name ); ?>
+								</button>
+							<?php
+								endforeach;
+							endif;
+							?>
+						</div>
 					</article>
+					<?php
+					$blog_args = array(
+						'post_type'      => 'blog',
+						'posts_per_page' => 8,
+						'orderby'        => 'date',
+						'order'          => 'DESC',
+					);
+					$blog_query = new WP_Query( $blog_args );
+					if ( $blog_query->have_posts() ) :
+					?>
+					<div class="swiper blog-swiper">
+						<div class="swiper-wrapper">
+							<?php
+							while ( $blog_query->have_posts() ) :
+								$blog_query->the_post();
+								$categories = get_the_terms( get_the_ID(), 'blog_category' );
+								$title = get_the_title();
+								if ( mb_strlen( $title ) > 52 ) {
+									$title = mb_substr( $title, 0, 52 ) . '...';
+								}
+							?>
+							<a href="<?php the_permalink(); ?>" class="swiper-slide blog-slide" data-category-ids="<?php 
+								if ( $categories && ! is_wp_error( $categories ) ) {
+									$cat_ids = array();
+									foreach ( $categories as $cat ) {
+										$cat_ids[] = $cat->term_id;
+									}
+									echo esc_attr( implode( ',', $cat_ids ) );
+								}
+							?>">
+								<div class="blog-slide__wrapper">
+									<?php if ( $categories && ! is_wp_error( $categories ) ) : ?>
+										<div class="blog-slide__tabs">
+											<div class="blog-slide__tab"><?php echo esc_html( $categories[0]->name ); ?></div>
+										</div>
+									<?php endif; ?>
+									<?php if ( has_post_thumbnail() ) : ?>
+										<?php the_post_thumbnail( 'medium', array( 'class' => 'blog-slide__images', 'alt' => esc_attr( get_the_title() ) ) ); ?>
+									<?php else : ?>
+										<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/picture/example_review.webp' ); ?>" alt="<?php echo esc_attr( get_the_title() ); ?>" class="blog-slide__images">
+									<?php endif; ?>
+								</div>
+								<article class="blog-slide__article">
+									<p class="blog-slide__date">
+										<?php echo esc_html( get_the_date() ); ?>
+									</p>
+									<h3 class="blog-slide__title">
+										<?php echo esc_html( $title ); ?>
+									</h3>
+								</article>
+							</a>
+							<?php
+							endwhile;
+							wp_reset_postdata();
+							?>
+						</div>
+					</div>
+					<?php endif; ?>
+					<button class="blog-swiper__prev"></button>
+					<button class="blog-swiper__next"></button>
 				</div>
-				<!--табы с категориями-->
-				<!--swiper-с-блогом-->
 			</div>
 		</section>
 	</div>

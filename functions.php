@@ -75,3 +75,13 @@ require get_template_directory() . '/inc/global-form.php';
  * Load services CPT
  */
 require get_template_directory() . '/inc/services.php';
+
+/**
+ * Load search functionality
+ */
+require get_template_directory() . '/inc/search.php';
+
+/**
+ * Load blog CPT
+ */
+require get_template_directory() . '/inc/blog.php';

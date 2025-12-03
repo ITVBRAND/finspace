@@ -161,6 +161,11 @@
     overflow: visible;
 }
 
+.services-swiper .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
 .services-slide {
     position: relative;
     padding: 20px 20px 40px;
@@ -231,14 +236,33 @@
     .services__filter-item:last-child {
         margin-top: 20px;
     }
-
+    
+    .services-swiper {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .services-swiper .swiper-wrapper {
+        margin: 0;
+    }
+    
     .services-slide {
         height: 335px;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0;
+        flex-shrink: 0;
+        box-sizing: border-box;
     }
 
     .services-slide::after {    
         height: 210px;
         width: 180px;
+    }
+    
+    .services-swiper__prev,
+    .services-swiper__next {
+        display: none;
     }
 
 }

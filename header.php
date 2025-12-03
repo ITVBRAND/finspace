@@ -21,7 +21,7 @@
 			<div class="header__top">
 				<div class="header__fixed-wrap">
 					<a href="/" class="header__link logo">
-						<img src="<?php echo get_template_directory_uri(); ?> /assets/picture/logo.svg" alt="логотип" class="header__logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/picture/logo.svg" alt="логотип" class="header__logo">
 					</a>
 				</div>
 				<div class="search-container">
@@ -31,7 +31,6 @@
 						</svg>
 						<form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<input type="search" id="search-input" class="search-input" placeholder="Найти" value="<?php echo esc_attr( get_search_query() ); ?>" name="s">
-							<input type="hidden" name="post_type" value="product">
 						</form>
 					</div>
 				</div>
@@ -69,14 +68,18 @@
 							<?php endif; ?>
 						</div>
 						<div class="header__contact-list bottom">
-							<div class="header__contact-item">
-								<p class="header__contact-item title">
-									Адрес:
-								</p>
-								<p class="header__contact-item link">
-									<?php if ( function_exists('the_field') ) the_field("option_office_info", "option"); ?>
-								</p>
-							</div>
+							<?php if( have_rows('option_addres_repeater', 'option') ): ?>
+								<?php while( have_rows('option_addres_repeater', 'option') ): the_row(); ?>
+									<div class="header__contact-item">
+										<p class="header__contact-item title">
+											<?php the_sub_field('option_addres_title', 'option'); ?>
+										</p>
+										<a href="<?php the_sub_field('option_addres_link', 'option'); ?>" class="header__contact-item link">
+											<?php the_sub_field('option_addres_text', 'option'); ?>
+										</a>
+									</div>
+								<?php endwhile; ?>
+							<?php endif; ?>
 							<?php if ( function_exists('get_field') && get_field("option_timer", "option") ): ?>
 								<div class="header__contact-item">
 									<p class="header__contact-item title">
@@ -163,7 +166,7 @@
 		<div class="mobile-menu__content">
 			<div class="mobile-menu__header">
 				<a href="/" class="mobile-menu__logo">
-					<img src="<?php echo get_template_directory_uri(); ?> /assets/images/logo.svg" alt="логотип">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/picture/logo.svg" alt="логотип">
 				</a>
 				<button class="mobile-menu__close" id="mobileMenuClose">
 					<span class="close-icon">
@@ -197,8 +200,7 @@
 				?>
 			</nav>
 			<div class="mobile-menu__actions">
-				<button class="mobile-menu__btn catalog">Каталог</button>
-				<button class="mobile-menu__btn message js-modal-contact">Оставить заявку</button>
+				<button class="btn-default js-modal-contact">Оставить заявку</button>
 			</div>
 			<div class="mobile-menu__contact">
 				<?php if ( function_exists('have_rows') && have_rows('option_tel_repeater', 'option') ): ?>
@@ -227,14 +229,18 @@
 						</a>
 					</div>
 				<?php endif; ?>
-				<div class="header__contact-item">
-					<p class="header__contact-item title">
-						Адрес:
-					</p>
-					<p class="header__contact-item link">
-						<?php if ( function_exists('the_field') ) the_field("option_office_info", "option"); ?>
-					</p>
-				</div>
+				<?php if( have_rows('option_addres_repeater', 'option') ): ?>
+                    <?php while( have_rows('option_addres_repeater', 'option') ): the_row(); ?>
+						<div class="header__contact-item">
+							<p class="header__contact-item title">
+								<?php the_sub_field('option_addres_title', 'option'); ?>
+							</p>
+							<a href="<?php the_sub_field('option_addres_link', 'option'); ?>" class="header__contact-item link">
+								<?php the_sub_field('option_addres_text', 'option'); ?>
+							</a>
+						</div>
+					<?php endwhile; ?>
+				<?php endif; ?>
 				<?php if ( function_exists('get_field') && get_field("option_timer", "option") ): ?>
 					<div class="header__contact-item">
 						<p class="header__contact-item title">
